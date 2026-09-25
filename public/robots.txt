@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+# The app dashboard is a client-side hash route (#/app) and is not a separate crawlable URL.
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://flowspace.app/sitemap.xml
